@@ -65,13 +65,13 @@ export default function ContactPage() {
         }}
       />
       
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen bg-background font-mono">
         {/* Hero Section */}
-        <section className="py-12 lg:py-20">
-          <div className="container mx-auto px-4 mt-40">
+        <section className="mx-auto max-w-7xl px-6 pt-24 md:pt-32">
+          <div className="container mx-auto px-4">
             <AnimatedGroup>
               <div className="text-center mb-12">
-                <h1 className="text-4xl lg:text-6xl font-bold mb-6">
+                <h1 className="font-sans text-4xl lg:text-6xl font-bold mb-6">
                   Parlons de votre{' '}
                   <span className="text-primary">projet</span>
                 </h1>
@@ -92,7 +92,7 @@ export default function ContactPage() {
               <AnimatedGroup>
                 <div className="bg-card border rounded-2xl p-8">
                   <div className="mb-8">
-                    <h2 className="text-2xl font-bold mb-4">Décrivez-nous votre projet</h2>
+                    <h2 className="font-sans text-2xl font-bold mb-4">Décrivez-nous votre projet</h2>
                     <p className="text-muted-foreground">
                       Remplissez ce formulaire et nous vous recontactons sous 24h pour discuter de vos besoins.
                     </p>
@@ -210,7 +210,7 @@ export default function ContactPage() {
                       />
                     </div>
 
-                    <Button type="submit" size="lg" className="w-full">
+                    <Button type="submit" size="lg" className="w-full font-sans">
                       <Send className="mr-2 h-4 w-4" />
                       Envoyer ma demande
                     </Button>
@@ -227,7 +227,7 @@ export default function ContactPage() {
                 {/* Contact Direct */}
                 <AnimatedGroup>
                   <div className="bg-card border rounded-2xl p-8">
-                    <h3 className="text-xl font-bold mb-6">Contact direct</h3>
+                    <h3 className="font-sans text-xl font-bold mb-6">Contact direct</h3>
                     
                     <div className="space-y-4">
                       <div className="flex items-start gap-4">
@@ -290,7 +290,7 @@ export default function ContactPage() {
                 {/* Services */}
                 <AnimatedGroup>
                   <div className="bg-card border rounded-2xl p-8">
-                    <h3 className="text-xl font-bold mb-6">Nos services</h3>
+                    <h3 className="font-sans text-xl font-bold mb-6">Nos services</h3>
                     
                     <div className="space-y-3">
                       {services.map((service, index) => (
@@ -316,11 +316,11 @@ export default function ContactPage() {
                 {/* CTA */}
                 <AnimatedGroup>
                   <div className="bg-gradient-to-br from-primary/10 via-primary/5 to-background border rounded-2xl p-8 text-center">
-                    <h3 className="text-xl font-bold mb-4">Besoin d&apos;une réponse immédiate ?</h3>
+                    <h3 className="font-sans text-xl font-bold mb-4">Besoin d&apos;une réponse immédiate ?</h3>
                     <p className="text-muted-foreground mb-6">
                       Planifiez un appel de 15 minutes pour discuter de votre projet
                     </p>
-                    <Button asChild size="lg" className="rounded-xl">
+                    <Button asChild size="lg" className="rounded-xl font-sans">
                       <a href={`tel:${contactInfo.phone.replace(/\s/g, '')}`}>
                         <Phone className="mr-2 h-4 w-4" />
                         Appeler maintenant
@@ -338,7 +338,7 @@ export default function ContactPage() {
           <div className="container mx-auto px-4">
             <AnimatedGroup>
               <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold mb-4">Questions fréquentes</h2>
+                <h2 className="font-sans text-3xl font-bold mb-4">Questions fréquentes</h2>
                 <p className="text-muted-foreground">
                   Les réponses aux questions les plus posées avant le premier contact
                 </p>
@@ -349,14 +349,14 @@ export default function ContactPage() {
               <AnimatedGroup>
                 <div className="space-y-6">
                   <div>
-                    <h3 className="font-medium mb-2">Combien coûte un audit ?</h3>
+                    <h3 className="font-sans font-medium mb-2">Combien coûte un audit ?</h3>
                     <p className="text-sm text-muted-foreground">
                       L&apos;audit initial est gratuit et sans engagement. Il nous permet d&apos;évaluer vos besoins et de vous proposer une solution adaptée.
                     </p>
                   </div>
                   
                   <div>
-                    <h3 className="font-medium mb-2">Quels sont vos délais ?</h3>
+                    <h3 className="font-sans font-medium mb-2">Quels sont vos délais ?</h3>
                     <p className="text-sm text-muted-foreground">
                       Prototype en 48h, chatbot complet en 1-2 semaines, site web professionnel en 7-14 jours selon la complexité.
                     </p>
@@ -367,14 +367,14 @@ export default function ContactPage() {
               <AnimatedGroup>
                 <div className="space-y-6">
                   <div>
-                    <h3 className="font-medium mb-2">Travaillez-vous à distance ?</h3>
+                    <h3 className="font-sans font-medium mb-2">Travaillez-vous à distance ?</h3>
                     <p className="text-sm text-muted-foreground">
                       Oui, nous travaillons avec des clients partout en France et en Europe. Réunions par visio et suivi projet en ligne.
                     </p>
                   </div>
                   
                   <div>
-                    <h3 className="font-medium mb-2">Proposez-vous de la maintenance ?</h3>
+                    <h3 className="font-sans font-medium mb-2">Proposez-vous de la maintenance ?</h3>
                     <p className="text-sm text-muted-foreground">
                       Oui, nous offrons différents niveaux de support : maintenance, évolutions, monitoring et formation de vos équipes.
                     </p>
