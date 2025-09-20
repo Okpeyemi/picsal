@@ -48,17 +48,17 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-border/40 py-8">
-          <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
+          <div className="flex flex-col items-center justify-between gap-4 lg:flex-row">
             <div className="flex items-center gap-4 text-sm text-muted-foreground">
               <span>© {currentYear} Picscal. Tous droits réservés.</span>
               <span className="hidden sm:inline">•</span>
-              <span className="text-xs">Fait avec ❤️ au Bénin</span>
+              <span className="text-xs">Fait avec ❤️ au Bénin par <a href="https://portfolio.maqsoud.tech" target="_blank" rel="noopener noreferrer">Maqsoud</a></span>
             </div>
             
             <div className="flex items-center gap-4 text-xs text-muted-foreground">
               <span>Propulsé par l&apos;IA</span>
               <span>•</span>
-              <span>Hébergé en France</span>
+              <span>Hébergé sur Vercel</span>
               <span>•</span>
               <span className="flex items-center gap-1">
                 <span className="h-2 w-2 rounded-full bg-green-500"></span>

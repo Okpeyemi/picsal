@@ -170,17 +170,17 @@ export default function ContactPage() {
 
                     <div>
                       <Label htmlFor="budget">Budget envisagé</Label>
-                      <select 
+                        <select 
                         id="budget" 
                         name="budget"
                         className="mt-2 w-full h-10 px-3 py-2 text-sm bg-background border border-input rounded-md focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-                      >
+                        >
                         <option value="">Non défini</option>
-                        <option value="< 5k">Moins de 5 000€</option>
-                        <option value="5k-15k">5 000€ - 15 000€</option>
-                        <option value="15k-50k">15 000€ - 50 000€</option>
-                        <option value="50k+">Plus de 50 000€</option>
-                      </select>
+                        <option value="lt-250k">Moins de 250 000 FCFA</option>
+                        <option value="250k-500k">250 000 - 500 000 FCFA</option>
+                        <option value="500k-1M">500 000 - 1 000 000 FCFA</option>
+                        <option value="1M+">Plus de 1 000 000 FCFA</option>
+                        </select>
                     </div>
 
                     <div>
@@ -268,7 +268,7 @@ export default function ContactPage() {
                           <p className="font-medium">Localisation</p>
                           <p className="text-muted-foreground">{contactInfo.address}</p>
                           <p className="text-sm text-muted-foreground mt-1">
-                            Hébergement France/UE
+                            Hébergement Vercel
                           </p>
                         </div>
                       </div>
@@ -369,7 +369,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-sans font-medium mb-2">Travaillez-vous à distance ?</h3>
                     <p className="text-sm text-muted-foreground">
-                      Oui, nous travaillons avec des clients partout en France et en Europe. Réunions par visio et suivi projet en ligne.
+                      Oui, nous travaillons avec des clients partout. Réunions par visio et suivi projet en ligne.
                     </p>
                   </div>
                   
