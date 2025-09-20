@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, HelpCircle } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { AnimatedGroup } from "@/components/ui/animated-group";
 import { cn } from "@/lib/utils";
 
@@ -94,7 +94,7 @@ export function FaqSection() {
           </div>
           <p className="text-muted-foreground font-mono text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
             Toutes les réponses aux questions que vous vous posez sur nos <strong className="text-foreground">solutions IA</strong> et 
-            <strong className="text-foreground"> services web</strong>. Une question spécifique ? N'hésitez pas à nous contacter.
+            <strong className="text-foreground"> services web</strong>. Une question spécifique ? N&apos;hésitez pas à nous contacter.
           </p>
         </AnimatedGroup>
 

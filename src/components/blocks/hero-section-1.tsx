@@ -5,25 +5,26 @@ import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { AnimatedGroup } from '@/components/ui/animated-group'
+import type { Variants } from 'framer-motion'
 
-const transitionVariants = {
-    item: {
-        hidden: {
-            opacity: 0,
-            filter: 'blur(12px)',
-            y: 12,
-        },
-        visible: {
-            opacity: 1,
-            filter: 'blur(0px)',
-            y: 0,
-            transition: {
-                type: 'spring',
-                bounce: 0.3,
-                duration: 1.5,
-            },
-        },
+const transitionVariants: { item: Variants } = {
+  item: {
+    hidden: {
+      opacity: 0,
+      filter: 'blur(12px)',
+      y: 12,
     },
+    visible: {
+      opacity: 1,
+      filter: 'blur(0px)',
+      y: 0,
+      transition: {
+        type: 'spring' as const,
+        bounce: 0.3,
+        duration: 1.5,
+      },
+    },
+  },
 }
 
 export function HeroSection() {
@@ -97,7 +98,7 @@ export function HeroSection() {
                         
                                     <h1
                                         className="mt-8 max-w-7xl font-sans font-bold mx-auto text-balance text-6xl md:text-7xl lg:mt-16 xl:text-[5.25rem]">
-                                        Boostez votre entreprise avec l'IA et des sites web performants
+                                        Boostez votre entreprise avec l&apos;IA et des sites web performants
                                     </h1>
                                     <p
                                         className="mx-auto mt-8 max-w-2xl font-mono text-balance text-lg">

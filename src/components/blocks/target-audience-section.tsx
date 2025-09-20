@@ -150,7 +150,7 @@ export function TargetAudienceSection() {
             Qui sont nos clients&nbsp;?
           </h2>
           <p className="text-muted-foreground font-mono text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
-            Des entreprises et professionnels visionnaires qui comprennent que l'IA et le web 
+            Des entreprises et professionnels visionnaires qui comprennent que l&apos;IA et le web 
             ne sont plus des options, mais des <strong className="text-foreground">nécessités stratégiques</strong> pour rester compétitifs.
           </p>
         </AnimatedGroup>

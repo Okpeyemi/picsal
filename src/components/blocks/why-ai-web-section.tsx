@@ -31,7 +31,7 @@ export function WhyAiWebSection() {
         Pourquoi adopter l’IA et un site web optimisé&nbsp;?
       </h2>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 mb-20">
-        {items.map((item, i) => (
+        {items.map((item) => (
           <div
             key={item.title}
             className="group relative flex flex-col items-center rounded-2xl border bg-white/5 p-8 text-center shadow-lg backdrop-blur transition hover:scale-[1.03] hover:border-foreground"

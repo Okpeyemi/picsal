@@ -316,7 +316,7 @@ export default function ContactPage() {
                 {/* CTA */}
                 <AnimatedGroup>
                   <div className="bg-gradient-to-br from-primary/10 via-primary/5 to-background border rounded-2xl p-8 text-center">
-                    <h3 className="text-xl font-bold mb-4">Besoin d'une réponse immédiate ?</h3>
+                    <h3 className="text-xl font-bold mb-4">Besoin d&apos;une réponse immédiate ?</h3>
                     <p className="text-muted-foreground mb-6">
                       Planifiez un appel de 15 minutes pour discuter de votre projet
                     </p>
@@ -351,7 +351,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-medium mb-2">Combien coûte un audit ?</h3>
                     <p className="text-sm text-muted-foreground">
-                      L'audit initial est gratuit et sans engagement. Il nous permet d'évaluer vos besoins et de vous proposer une solution adaptée.
+                      L&apos;audit initial est gratuit et sans engagement. Il nous permet d&apos;évaluer vos besoins et de vous proposer une solution adaptée.
                     </p>
                   </div>
                   

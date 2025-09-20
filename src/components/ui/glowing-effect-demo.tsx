@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Lock, Search, Settings, Sparkles, Cpu, Rocket } from "lucide-react";
+import { Lock, Settings, Sparkles, Cpu, Rocket } from "lucide-react";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 import { cn } from "@/lib/utils";
 

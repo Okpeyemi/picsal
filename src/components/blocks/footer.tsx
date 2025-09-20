@@ -23,7 +23,7 @@ export function Footer() {
                 Restez informé de nos innovations
               </h4>
               <p className="text-muted-foreground font-mono text-sm">
-                Recevez nos dernières actualités, cas d'usage IA et conseils tech directement dans votre boîte mail.
+                Recevez nos dernières actualités, cas d&apos;usage IA et conseils tech directement dans votre boîte mail.
               </p>
             </div>
             
@@ -35,7 +35,7 @@ export function Footer() {
                   className="flex-1 h-11 rounded-xl border border-border/60 bg-background/50 backdrop-blur-sm px-4 text-sm placeholder:text-muted-foreground focus:border-primary/30 focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all duration-200"
                 />
                 <Button size="default" className="rounded-xl font-sans px-6">
-                  S'abonner
+                  S&apos;abonner
                 </Button>
               </div>
             </div>
@@ -56,7 +56,7 @@ export function Footer() {
             </div>
             
             <div className="flex items-center gap-4 text-xs text-muted-foreground">
-              <span>Propulsé par l'IA</span>
+              <span>Propulsé par l&apos;IA</span>
               <span>•</span>
               <span>Hébergé en France</span>
               <span>•</span>
