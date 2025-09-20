@@ -1,44 +1,10 @@
 "use client";
 
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { AnimatedGroup } from "@/components/ui/animated-group";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
-
-  const navigation = {
-    services: [
-      { name: "Développement IA", href: "#services" },
-      { name: "Sites Web", href: "#services" },
-      { name: "Automatisation", href: "#services" },
-      { name: "Consulting", href: "#services" },
-    ],
-    company: [
-      { name: "À propos", href: "#about" },
-      { name: "Nos clients", href: "#clients" },
-      { name: "FAQ", href: "#faq" },
-      { name: "Blog", href: "/blog" },
-    ],
-    legal: [
-      { name: "Mentions légales", href: "/legal" },
-      { name: "Politique de confidentialité", href: "/privacy" },
-      { name: "CGV", href: "/terms" },
-      { name: "Cookies", href: "/cookies" },
-    ],
-    social: [
-      { name: "GitHub", href: "#", icon: Github },
-      { name: "LinkedIn", href: "#", icon: Linkedin },
-      { name: "Twitter", href: "#", icon: Twitter },
-    ],
-  };
-
-  const contact = {
-    email: "maqsoudt9@gmail.com",
-    phone: "+229 01 61 91 62 09",
-    address: "Cotonou, Bénin",
-    hours: "Lun-Ven 9h-18h",
-  };
 
   return (
     <footer className="relative bg-background/95 backdrop-blur-sm border-t border-border/40">
