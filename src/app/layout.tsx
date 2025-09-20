@@ -17,7 +17,7 @@ const hanken = Hanken_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://picscal.com'),
+  metadataBase: new URL('https://picscal.maqsoud.tech'),
   title: {
     default: "Picscal - Solutions IA & Web pour Entreprises | Automatisation & Sites Performants",
     template: "%s | Picscal - Solutions IA & Web"
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
-    url: 'https://picscal.com',
+    url: 'https://picscal.maqsoud.tech',
     siteName: 'Picscal',
     title: 'Picscal - Solutions IA & Web pour Entreprises',
     description: 'Propulsez votre entreprise avec nos solutions IA sur mesure et sites web performants. Automatisation, chatbots, développement moderne.',
@@ -69,9 +69,9 @@ export const metadata: Metadata = {
     creator: '@picscal',
   },
   alternates: {
-    canonical: 'https://picscal.com',
+    canonical: 'https://picscal.maqsoud.tech',
     languages: {
-      'fr-FR': 'https://picscal.com',
+      'fr-FR': 'https://picscal.maqsoud.tech',
     },
   },
   verification: {
@@ -101,8 +101,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Picscal",
-              "url": "https://picscal.com",
-              "logo": "https://picscal.com/logo.png",
+              "url": "https://picscal.maqsoud.tech",
+              "logo": "https://picscal.maqsoud.tech/logo.png",
               "description": "Solutions IA et développement web pour entreprises",
               "address": {
                 "@type": "PostalAddress",

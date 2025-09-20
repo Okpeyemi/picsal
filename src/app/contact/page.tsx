@@ -14,12 +14,12 @@ export const metadata: Metadata = {
     'contact développeur IA', 'devis site web', 'projet digitalisation'
   ],
   alternates: {
-    canonical: 'https://picscal.com/contact',
+    canonical: 'https://picscal.maqsoud.tech/contact',
   },
   openGraph: {
     title: 'Contactez Picscal - Audit Gratuit pour votre Projet IA',
     description: 'Parlons de votre projet ! Audit gratuit, réponse rapide, solutions sur mesure.',
-    url: 'https://picscal.com/contact',
+    url: 'https://picscal.maqsoud.tech/contact',
   }
 };
 

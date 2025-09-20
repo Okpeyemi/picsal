@@ -2,7 +2,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://picscal.com'
+  const baseUrl = 'https://picscal.maqsoud.tech'
   
   return [
     {

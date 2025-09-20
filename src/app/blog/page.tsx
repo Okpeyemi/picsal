@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description:
     "Actualités, cas d’usage IA et conseils web par Picscal. Les articles arrivent bientôt.",
   alternates: {
-    canonical: "https://picscal.com/blog",
+    canonical: "https://picscal.maqsoud.tech/blog",
   },
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://picscal.com/blog",
+    url: "https://picscal.maqsoud.tech/blog",
     siteName: "Picscal",
     title: "Blog Picscal",
     description:
@@ -48,13 +48,13 @@ export default function BlogPage() {
         "@type": "ListItem",
         position: 1,
         name: "Accueil",
-        item: "https://picscal.com",
+        item: "https://picscal.maqsoud.tech",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Blog",
-        item: "https://picscal.com/blog",
+        item: "https://picscal.maqsoud.tech/blog",
       },
     ],
   };
@@ -62,14 +62,14 @@ export default function BlogPage() {
   const blogLd = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    url: "https://picscal.com/blog",
+    url: "https://picscal.maqsoud.tech/blog",
     name: "Blog Picscal",
     description:
       "Actualités, cas d’usage IA et conseils web par Picscal. Les articles arrivent bientôt.",
     publisher: {
       "@type": "Organization",
       name: "Picscal",
-      url: "https://picscal.com",
+      url: "https://picscal.maqsoud.tech",
     },
     blogPost: [],
   };

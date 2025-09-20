@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/private/', '/api/'],
     },
-    sitemap: 'https://picscal.com/sitemap.xml',
+    sitemap: 'https://picscal.maqsoud.tech/sitemap.xml',
   }
 }

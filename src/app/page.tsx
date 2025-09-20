@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Accueil",
   description: "Découvrez nos solutions IA et web pour automatiser vos processus, créer des sites performants et propulser votre entreprise. PME, startups, freelances - audit gratuit.",
   alternates: {
-    canonical: 'https://picscal.com',
+    canonical: 'https://picscal.maqsoud.tech',
   },
 };
 
@@ -24,10 +24,10 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "Picscal",
-            "url": "https://picscal.com",
+            "url": "https://picscal.maqsoud.tech",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://picscal.com/search?q={search_term_string}",
+              "target": "https://picscal.maqsoud.tech/search?q={search_term_string}",
               "query-input": "required name=search_term_string"
             }
           })
