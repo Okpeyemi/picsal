@@ -3,6 +3,7 @@ import { Space_Grotesk, Hanken_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Header } from '@/components/blocks/header'
 import { Footer } from "@/components/blocks/footer";
+import { NavigationLoader } from "@/components/ui/navigation-loader";
 
 const space = Space_Grotesk({
   variable: "--font-space",
@@ -127,6 +128,7 @@ export default function RootLayout({
       <body
         className={`${space.variable} ${hanken.variable} antialiased`}
       >
+        <NavigationLoader />
         <Header />
         {children}
         <Footer />
