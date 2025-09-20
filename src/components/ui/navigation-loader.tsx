@@ -14,7 +14,7 @@ function getAnchorFromEvent(event: MouseEvent): HTMLAnchorElement | null {
 }
 
 function isModifiedEvent(e: MouseEvent) {
-  return e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || (e as any).button === 1;
+  return e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button === 1;
 }
 
 export function NavigationLoader() {
@@ -83,7 +83,7 @@ export function NavigationLoader() {
       startedAt.current = null;
     }, remaining);
     return () => clearTimeout(t);
-  }, [pathname, search]); // changement de route
+  }, [pathname, search, loading]); // changement de route
 
   return loading ? <PageLoader message="Chargement de la page..." /> : null;
 }
