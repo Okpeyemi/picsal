@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from '@/components/blocks/header'
 import { Footer } from "@/components/blocks/footer";
 import { NavigationLoader } from "@/components/ui/navigation-loader";
+import { Suspense } from "react";
 
 const space = Space_Grotesk({
   variable: "--font-space",
@@ -128,7 +129,9 @@ export default function RootLayout({
       <body
         className={`${space.variable} ${hanken.variable} antialiased`}
       >
-        <NavigationLoader />
+        <Suspense fallback={null}>
+          <NavigationLoader />
+        </Suspense>
         <Header />
         {children}
         <Footer />
