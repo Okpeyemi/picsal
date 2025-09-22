@@ -179,7 +179,7 @@ export function FaqSection() {
           
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <button className="inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-sans font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8">
-              <a href="#contact">Poser une question</a>
+              <a href="/contact">Poser une question</a>
             </button>
             <button className="inline-flex items-center justify-center whitespace-nowrap rounded-xl text-sm font-sans font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 px-8">
               <a href="tel:+33123456789">Planifier un appel</a>

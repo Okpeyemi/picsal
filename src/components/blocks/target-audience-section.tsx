@@ -238,7 +238,7 @@ export function TargetAudienceSection() {
           
           <div className="flex flex-col font-sans items-center justify-center gap-4 sm:flex-row">
             <Button asChild size="lg" className="rounded-xl font-sans px-8">
-              <a href="#contact">Parler de votre projet</a>
+              <a href="/contact">Parler de votre projet</a>
             </Button>
           </div>
         </AnimatedGroup>

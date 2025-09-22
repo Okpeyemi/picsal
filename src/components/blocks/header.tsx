@@ -85,7 +85,7 @@ export function Header() {
                   size="sm"
                   className={cn(isScrolled && 'lg:hidden')}
                 >
-                  <Link href="#">
+                  <Link href="/contact">
                     <span>Discutons</span>
                   </Link>
                 </Button>
@@ -94,7 +94,7 @@ export function Header() {
                   size="sm"
                   className={cn(isScrolled ? 'lg:inline-flex' : 'hidden')}
                 >
-                  <Link href="#">
+                  <Link href="/contact">
                     <span>Discutons</span>
                   </Link>
                 </Button>
